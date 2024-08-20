@@ -32,11 +32,11 @@ public class SecuritySecureConfig {
 
     private final AdminServerProperties adminServer;
 
-    private final SecurityProperties security;
+    private final SecurityProperties securityProperties;
 
     public SecuritySecureConfig(AdminServerProperties adminServer, SecurityProperties security) {
         this.adminServer = adminServer;
-        this.security = security;
+        this.securityProperties = security;
     }
 
     @Bean
@@ -76,19 +76,5 @@ public class SecuritySecureConfig {
 
         return http.build();
 
-    }
-
-    @Bean
-    public UserDetailsService userDetailsService() {
-        String username = System.getenv("username");
-        String password = System.getenv("password");
-
-        UserDetails user = User.withDefaultPasswordEncoder()
-                .username(username)
-                .password(password)
-                .roles("ADMIN")
-                .build();
-
-        return new InMemoryUserDetailsManager(user);
     }
 }
