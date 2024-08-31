@@ -27,10 +27,12 @@ dependencyManagement {
 dependencies {
 	implementation 'de.codecentric:spring-boot-admin-starter-client'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
-	implementation 'org.springframework.boot:spring-boot-starter-security'
+	implementation 'org.springframework.boot:spring-boot-starter-cache'
 
 	implementation 'org.springframework.cloud:spring-cloud-context'
-	implementation 'org.springframework.cloud:spring-cloud-starter-kubernetes-client-config'
+
+	compileOnly 'org.projectlombok:lombok'
+	annotationProcessor 'org.projectlombok:lombok'
 
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
