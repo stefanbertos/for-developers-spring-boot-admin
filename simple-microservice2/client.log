@@ -1,0 +1,88 @@
+2024-09-15T19:32:15.996+02:00  INFO 16948 --- [client] [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 21 with PID 16948 (C:\Users\stefa\IdeaProjects\spring-boot-admin-poc\simple-microservice\build\classes\java\main started by stefa in C:\Users\stefa\IdeaProjects\spring-boot-admin-poc\simple-microservice)
+2024-09-15T19:32:15.999+02:00  INFO 16948 --- [client] [main] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-09-15T19:32:17.118+02:00  INFO 16948 --- [client] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=292aebea-d635-3604-a542-9f855248b090
+2024-09-15T19:32:17.502+02:00  INFO 16948 --- [client] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-09-15T19:32:17.519+02:00  INFO 16948 --- [client] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-15T19:32:17.519+02:00  INFO 16948 --- [client] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-09-15T19:32:17.615+02:00  INFO 16948 --- [client] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-15T19:32:17.616+02:00  INFO 16948 --- [client] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1543 ms
+2024-09-15T19:32:19.404+02:00  INFO 16948 --- [client] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 16 endpoints beneath base path '/actuator'
+2024-09-15T19:32:19.506+02:00  INFO 16948 --- [client] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-09-15T19:32:19.541+02:00  INFO 16948 --- [client] [main] com.example.demo.DemoApplication         : Started DemoApplication in 4.196 seconds (process running for 4.689)
+2024-09-15T19:32:19.571+02:00  INFO 16948 --- [client] [scheduling-1] c.e.demo.service.SimpleSchedulerService  : scheduled at 1726421539571
+2024-09-15T19:32:20.157+02:00  INFO 16948 --- [client] [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Application registered itself as 34fecff80a31
+2024-09-15T19:32:20.223+02:00  INFO 16948 --- [client] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-15T19:32:20.223+02:00  INFO 16948 --- [client] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-09-15T19:32:20.223+02:00  INFO 16948 --- [client] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-09-15T19:32:29.545+02:00  INFO 16948 --- [client] [scheduling-1] c.e.demo.service.SimpleSchedulerService  : scheduled at 1726421549545
+2024-09-15T19:32:39.541+02:00  INFO 16948 --- [client] [scheduling-1] c.e.demo.service.SimpleSchedulerService  : scheduled at 1726421559541
+2024-09-15T19:32:49.547+02:00  INFO 16948 --- [client] [scheduling-1] c.e.demo.service.SimpleSchedulerService  : scheduled at 1726421569547
+2024-09-15T19:32:59.550+02:00  INFO 16948 --- [client] [scheduling-1] c.e.demo.service.SimpleSchedulerService  : scheduled at 1726421579550
+2024-09-15T19:33:09.539+02:00  INFO 16948 --- [client] [scheduling-1] c.e.demo.service.SimpleSchedulerService  : scheduled at 1726421589539
+2024-09-15T19:33:19.552+02:00  INFO 16948 --- [client] [scheduling-1] c.e.demo.service.SimpleSchedulerService  : scheduled at 1726421599552
+2024-09-15T19:33:29.540+02:00  INFO 16948 --- [client] [scheduling-1] c.e.demo.service.SimpleSchedulerService  : scheduled at 1726421609540
+2024-09-15T19:33:39.549+02:00  INFO 16948 --- [client] [scheduling-1] c.e.demo.service.SimpleSchedulerService  : scheduled at 1726421619549
+2024-09-15T19:33:49.541+02:00  INFO 16948 --- [client] [scheduling-1] c.e.demo.service.SimpleSchedulerService  : scheduled at 1726421629541
+2024-09-15T19:33:59.544+02:00  INFO 16948 --- [client] [scheduling-1] c.e.demo.service.SimpleSchedulerService  : scheduled at 1726421639544
+2024-09-15T19:34:09.539+02:00  INFO 16948 --- [client] [scheduling-1] c.e.demo.service.SimpleSchedulerService  : scheduled at 1726421649539
+2024-09-15T19:34:19.545+02:00  INFO 16948 --- [client] [scheduling-1] c.e.demo.service.SimpleSchedulerService  : scheduled at 1726421659545
+2024-09-15T19:34:29.550+02:00  INFO 16948 --- [client] [scheduling-1] c.e.demo.service.SimpleSchedulerService  : scheduled at 1726421669550
+2024-09-15T19:34:39.540+02:00  INFO 16948 --- [client] [scheduling-1] c.e.demo.service.SimpleSchedulerService  : scheduled at 1726421679540
+2024-09-15T19:34:49.548+02:00  INFO 16948 --- [client] [scheduling-1] c.e.demo.service.SimpleSchedulerService  : scheduled at 1726421689548
+2024-09-15T19:34:59.540+02:00  INFO 16948 --- [client] [scheduling-1] c.e.demo.service.SimpleSchedulerService  : scheduled at 1726421699540
+2024-09-15T19:35:09.545+02:00  INFO 16948 --- [client] [scheduling-1] c.e.demo.service.SimpleSchedulerService  : scheduled at 1726421709545
+2024-09-15T19:37:52.169+02:00  INFO 14516 --- [microservice2] [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 21 with PID 14516 (C:\Users\stefa\IdeaProjects\spring-boot-admin-poc\simple-microservice2\build\classes\java\main started by stefa in C:\Users\stefa\IdeaProjects\spring-boot-admin-poc\simple-microservice2)
+2024-09-15T19:37:52.169+02:00  INFO 14516 --- [microservice2] [main] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-09-15T19:37:54.105+02:00  INFO 14516 --- [microservice2] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=292aebea-d635-3604-a542-9f855248b090
+2024-09-15T19:37:54.652+02:00  INFO 14516 --- [microservice2] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-09-15T19:37:54.703+02:00  INFO 14516 --- [microservice2] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-15T19:37:54.703+02:00  INFO 14516 --- [microservice2] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-09-15T19:37:54.821+02:00  INFO 14516 --- [microservice2] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-15T19:37:54.821+02:00  INFO 14516 --- [microservice2] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2556 ms
+2024-09-15T19:37:56.307+02:00  INFO 14516 --- [microservice2] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 16 endpoints beneath base path '/actuator'
+2024-09-15T19:37:56.421+02:00  WARN 14516 --- [microservice2] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2024-09-15T19:37:56.460+02:00  INFO 14516 --- [microservice2] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-09-15T19:37:56.488+02:00 ERROR 14516 --- [microservice2] [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2024-09-15T19:38:48.693+02:00  INFO 1480 --- [microservice2] [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 21 with PID 1480 (C:\Users\stefa\IdeaProjects\spring-boot-admin-poc\simple-microservice2\build\classes\java\main started by stefa in C:\Users\stefa\IdeaProjects\spring-boot-admin-poc\simple-microservice2)
+2024-09-15T19:38:48.695+02:00  INFO 1480 --- [microservice2] [main] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-09-15T19:38:50.101+02:00  INFO 1480 --- [microservice2] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=292aebea-d635-3604-a542-9f855248b090
+2024-09-15T19:38:50.802+02:00  INFO 1480 --- [microservice2] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8082 (http)
+2024-09-15T19:38:50.820+02:00  INFO 1480 --- [microservice2] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-15T19:38:50.820+02:00  INFO 1480 --- [microservice2] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-09-15T19:38:50.919+02:00  INFO 1480 --- [microservice2] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-15T19:38:50.919+02:00  INFO 1480 --- [microservice2] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2160 ms
+2024-09-15T19:38:52.580+02:00  INFO 1480 --- [microservice2] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 16 endpoints beneath base path '/actuator'
+2024-09-15T19:38:52.842+02:00  INFO 1480 --- [microservice2] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8082 (http) with context path '/'
+2024-09-15T19:38:52.881+02:00  INFO 1480 --- [microservice2] [main] com.example.demo.DemoApplication         : Started DemoApplication in 4.917 seconds (process running for 5.333)
+2024-09-15T19:38:52.966+02:00  INFO 1480 --- [microservice2] [scheduling-1] c.e.demo.service.SimpleSchedulerService  : scheduled at 1726421932966
+2024-09-15T19:38:53.342+02:00  INFO 1480 --- [microservice2] [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Application registered itself as e89358908831
+2024-09-15T19:38:53.391+02:00  INFO 1480 --- [microservice2] [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-15T19:38:53.391+02:00  INFO 1480 --- [microservice2] [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-09-15T19:38:53.393+02:00  INFO 1480 --- [microservice2] [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-09-15T19:39:02.880+02:00  INFO 1480 --- [microservice2] [scheduling-1] c.e.demo.service.SimpleSchedulerService  : scheduled at 1726421942880
+2024-09-15T19:39:13.063+02:00  INFO 1480 --- [microservice2] [scheduling-1] c.e.demo.service.SimpleSchedulerService  : scheduled at 1726421953063
+2024-09-15T19:39:22.880+02:00  INFO 1480 --- [microservice2] [scheduling-1] c.e.demo.service.SimpleSchedulerService  : scheduled at 1726421962880
+2024-09-15T19:39:32.888+02:00  INFO 1480 --- [microservice2] [scheduling-1] c.e.demo.service.SimpleSchedulerService  : scheduled at 1726421972888
+2024-09-15T19:39:42.879+02:00  INFO 1480 --- [microservice2] [scheduling-1] c.e.demo.service.SimpleSchedulerService  : scheduled at 1726421982879
+2024-09-15T19:39:52.885+02:00  INFO 1480 --- [microservice2] [scheduling-1] c.e.demo.service.SimpleSchedulerService  : scheduled at 1726421992885
+2024-09-15T19:40:02.889+02:00  INFO 1480 --- [microservice2] [scheduling-1] c.e.demo.service.SimpleSchedulerService  : scheduled at 1726422002889
+2024-09-15T19:40:12.881+02:00  INFO 1480 --- [microservice2] [scheduling-1] c.e.demo.service.SimpleSchedulerService  : scheduled at 1726422012881
+2024-09-15T19:40:22.904+02:00  INFO 1480 --- [microservice2] [scheduling-1] c.e.demo.service.SimpleSchedulerService  : scheduled at 1726422022904
+2024-09-15T19:40:32.889+02:00  INFO 1480 --- [microservice2] [scheduling-1] c.e.demo.service.SimpleSchedulerService  : scheduled at 1726422032889
+2024-09-15T19:40:42.890+02:00  INFO 1480 --- [microservice2] [scheduling-1] c.e.demo.service.SimpleSchedulerService  : scheduled at 1726422042890
+2024-09-15T19:40:52.880+02:00  INFO 1480 --- [microservice2] [scheduling-1] c.e.demo.service.SimpleSchedulerService  : scheduled at 1726422052880
