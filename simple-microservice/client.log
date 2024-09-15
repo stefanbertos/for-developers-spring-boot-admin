@@ -1,0 +1,86 @@
+2024-09-15T16:09:49.486+02:00  INFO 15676 --- [client] [main] com.example.demo.DemoApplicationTests    : Starting DemoApplicationTests using Java 22.0.1 with PID 15676 (started by stefa in C:\Users\stefa\IdeaProjects\spring-boot-admin-poc\simple-microservice)
+2024-09-15T16:09:49.540+02:00  INFO 15676 --- [client] [main] com.example.demo.DemoApplicationTests    : No active profile set, falling back to 1 default profile: "default"
+2024-09-15T16:09:52.747+02:00  INFO 15676 --- [client] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=82d9cf12-58b5-3ae1-b55f-95473f096f7d
+2024-09-15T16:09:54.921+02:00  INFO 15676 --- [client] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 16 endpoints beneath base path '/actuator'
+2024-09-15T16:09:55.110+02:00  INFO 15676 --- [client] [main] com.example.demo.DemoApplicationTests    : Started DemoApplicationTests in 7.144 seconds (process running for 9.854)
+2024-09-15T16:09:55.235+02:00  INFO 15676 --- [client] [scheduling-1] c.e.demo.service.SimpleSchedulerService  : scheduled at 1726409395235
+2024-09-15T16:09:55.466+02:00 ERROR 15676 --- [client] [registrationTask1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+
+java.lang.IllegalStateException: couldn't determine local port. Please set spring.boot.admin.client.instance.service-base-url.
+	at de.codecentric.boot.admin.client.registration.DefaultApplicationFactory.getLocalServerPort(DefaultApplicationFactory.java:205) ~[spring-boot-admin-client-3.3.3.jar:3.3.3]
+	at de.codecentric.boot.admin.client.registration.DefaultApplicationFactory.getServiceBaseUrl(DefaultApplicationFactory.java:109) ~[spring-boot-admin-client-3.3.3.jar:3.3.3]
+	at de.codecentric.boot.admin.client.registration.ServletApplicationFactory.getServiceUrl(ServletApplicationFactory.java:62) ~[spring-boot-admin-client-3.3.3.jar:3.3.3]
+	at de.codecentric.boot.admin.client.registration.ServletApplicationFactory.getManagementBaseUrl(ServletApplicationFactory.java:77) ~[spring-boot-admin-client-3.3.3.jar:3.3.3]
+	at de.codecentric.boot.admin.client.registration.DefaultApplicationFactory.getHealthUrl(DefaultApplicationFactory.java:165) ~[spring-boot-admin-client-3.3.3.jar:3.3.3]
+	at de.codecentric.boot.admin.client.registration.DefaultApplicationFactory.createApplication(DefaultApplicationFactory.java:80) ~[spring-boot-admin-client-3.3.3.jar:3.3.3]
+	at de.codecentric.boot.admin.client.registration.DefaultApplicationRegistrator.register(DefaultApplicationRegistrator.java:56) ~[spring-boot-admin-client-3.3.3.jar:3.3.3]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-6.1.11.jar:6.1.11]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:1570) ~[na:na]
+
+2024-09-15T16:11:46.362+02:00  INFO 7112 --- [client] [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 21 with PID 7112 (C:\Users\stefa\IdeaProjects\spring-boot-admin-poc\simple-microservice\build\classes\java\main started by stefa in C:\Users\stefa\IdeaProjects\spring-boot-admin-poc\simple-microservice)
+2024-09-15T16:11:46.377+02:00  INFO 7112 --- [client] [main] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-09-15T16:11:47.405+02:00  INFO 7112 --- [client] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=292aebea-d635-3604-a542-9f855248b090
+2024-09-15T16:11:47.765+02:00  INFO 7112 --- [client] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-09-15T16:11:47.782+02:00  INFO 7112 --- [client] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-15T16:11:47.782+02:00  INFO 7112 --- [client] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-09-15T16:11:47.843+02:00  INFO 7112 --- [client] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-15T16:11:47.843+02:00  INFO 7112 --- [client] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1406 ms
+2024-09-15T16:11:48.640+02:00  INFO 7112 --- [client] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 16 endpoints beneath base path '/actuator'
+2024-09-15T16:11:48.719+02:00  INFO 7112 --- [client] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-09-15T16:11:48.734+02:00  INFO 7112 --- [client] [main] com.example.demo.DemoApplication         : Started DemoApplication in 2.896 seconds (process running for 3.285)
+2024-09-15T16:11:48.765+02:00  INFO 7112 --- [client] [scheduling-1] c.e.demo.service.SimpleSchedulerService  : scheduled at 1726409508765
+2024-09-15T16:11:49.142+02:00  INFO 7112 --- [client] [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Application registered itself as 34fecff80a31
+2024-09-15T16:11:49.267+02:00  INFO 7112 --- [client] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-15T16:11:49.267+02:00  INFO 7112 --- [client] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-09-15T16:11:49.282+02:00  INFO 7112 --- [client] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 15 ms
+2024-09-15T16:11:58.746+02:00  INFO 7112 --- [client] [scheduling-1] c.e.demo.service.SimpleSchedulerService  : scheduled at 1726409518746
+2024-09-15T16:12:08.746+02:00  INFO 7112 --- [client] [scheduling-1] c.e.demo.service.SimpleSchedulerService  : scheduled at 1726409528746
+2024-09-15T16:12:18.750+02:00  INFO 7112 --- [client] [scheduling-1] c.e.demo.service.SimpleSchedulerService  : scheduled at 1726409538750
+2024-09-15T16:12:28.747+02:00  INFO 7112 --- [client] [scheduling-1] c.e.demo.service.SimpleSchedulerService  : scheduled at 1726409548747
+2024-09-15T16:12:38.750+02:00  INFO 7112 --- [client] [scheduling-1] c.e.demo.service.SimpleSchedulerService  : scheduled at 1726409558750
+2024-09-15T16:12:48.742+02:00  INFO 7112 --- [client] [scheduling-1] c.e.demo.service.SimpleSchedulerService  : scheduled at 1726409568742
+2024-09-15T16:12:58.750+02:00  INFO 7112 --- [client] [scheduling-1] c.e.demo.service.SimpleSchedulerService  : scheduled at 1726409578750
+2024-09-15T16:13:08.741+02:00  INFO 7112 --- [client] [scheduling-1] c.e.demo.service.SimpleSchedulerService  : scheduled at 1726409588741
+2024-09-15T16:13:18.744+02:00  INFO 7112 --- [client] [scheduling-1] c.e.demo.service.SimpleSchedulerService  : scheduled at 1726409598744
+2024-09-15T16:13:30.860+02:00  INFO 6392 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 21 with PID 6392 (C:\Users\stefa\IdeaProjects\spring-boot-admin-poc\simple-microservice\build\classes\java\main started by stefa in C:\Users\stefa\IdeaProjects\spring-boot-admin-poc\simple-microservice)
+2024-09-15T16:13:30.860+02:00  INFO 6392 --- [main] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-09-15T16:13:31.893+02:00  INFO 6392 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=292aebea-d635-3604-a542-9f855248b090
+2024-09-15T16:13:32.284+02:00  INFO 6392 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-09-15T16:13:32.310+02:00  INFO 6392 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-15T16:13:32.310+02:00  INFO 6392 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-09-15T16:13:32.373+02:00  INFO 6392 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-15T16:13:32.373+02:00  INFO 6392 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1450 ms
+2024-09-15T16:13:33.139+02:00  INFO 6392 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 16 endpoints beneath base path '/actuator'
+2024-09-15T16:13:33.217+02:00  INFO 6392 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-09-15T16:13:33.233+02:00  INFO 6392 --- [main] com.example.demo.DemoApplication         : Started DemoApplication in 2.917 seconds (process running for 3.373)
+2024-09-15T16:13:33.264+02:00  INFO 6392 --- [scheduling-1] c.e.demo.service.SimpleSchedulerService  : scheduled at 1726409613264
+2024-09-15T16:13:33.485+02:00  INFO 6392 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Application registered itself as 34fecff80a31
+2024-09-15T16:13:33.524+02:00  INFO 6392 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-15T16:13:33.524+02:00  INFO 6392 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-09-15T16:13:33.526+02:00  INFO 6392 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-09-15T16:13:43.249+02:00  INFO 6392 --- [scheduling-1] c.e.demo.service.SimpleSchedulerService  : scheduled at 1726409623249
+2024-09-15T16:13:53.246+02:00  INFO 6392 --- [scheduling-1] c.e.demo.service.SimpleSchedulerService  : scheduled at 1726409633246
+2024-09-15T16:14:03.256+02:00  INFO 6392 --- [scheduling-1] c.e.demo.service.SimpleSchedulerService  : scheduled at 1726409643256
+2024-09-15T16:18:00.953+02:00  INFO 16672 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 21 with PID 16672 (C:\Users\stefa\IdeaProjects\spring-boot-admin-poc\simple-microservice\build\classes\java\main started by stefa in C:\Users\stefa\IdeaProjects\spring-boot-admin-poc\simple-microservice)
+2024-09-15T16:18:00.969+02:00  INFO 16672 --- [main] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-09-15T16:18:02.334+02:00  INFO 16672 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=292aebea-d635-3604-a542-9f855248b090
+2024-09-15T16:18:02.758+02:00  INFO 16672 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-09-15T16:18:02.773+02:00  INFO 16672 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-15T16:18:02.773+02:00  INFO 16672 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-09-15T16:18:02.852+02:00  INFO 16672 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-15T16:18:02.852+02:00  INFO 16672 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1820 ms
+2024-09-15T16:18:03.682+02:00  INFO 16672 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 16 endpoints beneath base path '/actuator'
+2024-09-15T16:18:03.760+02:00  INFO 16672 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-09-15T16:18:03.776+02:00  INFO 16672 --- [main] com.example.demo.DemoApplication         : Started DemoApplication in 3.413 seconds (process running for 3.896)
+2024-09-15T16:18:03.831+02:00  INFO 16672 --- [scheduling-1] c.e.demo.service.SimpleSchedulerService  : scheduled at 1726409883831
+2024-09-15T16:18:04.308+02:00  INFO 16672 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Application registered itself as 34fecff80a31
+2024-09-15T16:18:04.418+02:00  INFO 16672 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-15T16:18:04.418+02:00  INFO 16672 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-09-15T16:18:04.418+02:00  INFO 16672 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-09-15T16:18:13.786+02:00  INFO 16672 --- [scheduling-1] c.e.demo.service.SimpleSchedulerService  : scheduled at 1726409893786
+2024-09-15T16:18:23.793+02:00  INFO 16672 --- [scheduling-1] c.e.demo.service.SimpleSchedulerService  : scheduled at 1726409903793
